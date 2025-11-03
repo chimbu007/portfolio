@@ -424,6 +424,19 @@ footer {
                 Download CV
               </a>
             </div>
+                {/* === SOCIAL ICONS BELOW DOWNLOAD BUTTON === */}
+    <div className="social-row">
+      <a href="https://github.com/chimbu007" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-github"></i>
+      </a>
+      <a href="mailto:chidambaramchimbu07@gmail.com">
+        <i className="fas fa-envelope"></i>
+      </a>
+      <a href="https://wa.me/917904210709" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
 
             <div className="projects" id="projects">
               <h3 style={{ marginTop: 28 }}>My Projects</h3>
@@ -528,6 +541,17 @@ footer {
                 <strong>Email</strong>
                 <div style={{ opacity: 0.9 }}>chidambaramchimbu07@gmail.com</div>
               </div>
+               <div className="social-row">
+    <a href="https://github.com/chidambaram" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-github"></i>
+    </a>
+    <a href="mailto:chidambaramchimbu07@gmail.com">
+      <i className="fas fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/918610408411" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-whatsapp"></i>
+    </a>
+  </div>
             </div>
 
             <form
