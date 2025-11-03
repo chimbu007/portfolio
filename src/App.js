@@ -242,8 +242,8 @@ body {
 
 /* ===== ABOUT / CONTACT ===== */
 .section {
-  margin-top: 44px;
-  padding: 32px;
+  margin-top: 10px;
+  padding: 7px;
   border-radius: 12px;
   background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
   border: 1px solid rgba(255,255,255,0.02);
