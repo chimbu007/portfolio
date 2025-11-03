@@ -302,9 +302,23 @@ footer {
     width: 100%;
     margin-top: 20px;
   }
-  .hero-left {
-    text-align: center;
-  }
+ .hero-left {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Keep social icons spacing consistent */
+.social-row {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
 }
 @media (max-width: 700px) {
   .nav {
