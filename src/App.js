@@ -555,17 +555,6 @@ footer {
                 <strong>Email</strong>
                 <div style={{ opacity: 0.9 }}>chidambaramchimbu07@gmail.com</div>
               </div>
-               <div className="social-row">
-    <a href="https://github.com/chidambaram" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-github"></i>
-    </a>
-    <a href="mailto:chidambaramchimbu07@gmail.com">
-      <i className="fas fa-envelope"></i>
-    </a>
-    <a href="https://wa.me/918610408411" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-whatsapp"></i>
-    </a>
-  </div>
             </div>
 
             <form
@@ -583,6 +572,17 @@ footer {
               <button className="btn" type="submit">Send Message</button>
             </form>
           </div>
+           <div className="social-row">
+    <a href="https://github.com/chidambaram" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-github"></i>
+    </a>
+    <a href="mailto:chidambaramchimbu07@gmail.com">
+      <i className="fas fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/918610408411" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-whatsapp"></i>
+    </a>
+  </div>
         </section>
 
         <footer>© {new Date().getFullYear()} Chidambaram • Built with React</footer>
