@@ -14,6 +14,7 @@ export default function App() {
   --text: #f6f6f6;
 }
 
+/* ===== RESET ===== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -242,11 +243,19 @@ body {
 
 /* ===== ABOUT / CONTACT ===== */
 .section {
-  margin-top: 10px;
-  padding: 7px;
-  border-radius: 12px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
-  border: 1px solid rgba(255,255,255,0.02);
+  margin-top: 30px;
+  padding: 40px 28px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  backdrop-filter: blur(6px);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+#about {
+  margin-top: -20px; /* brings section up neatly */
 }
 .about-flex {
   display: flex;
@@ -344,6 +353,7 @@ footer {
     font-size: 13px;
   }
 }
+
     `;
     const style = document.createElement("style");
     style.id = "portfolio-css";
